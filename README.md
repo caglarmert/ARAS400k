@@ -6,11 +6,13 @@
 
 This repository contains the complete pipeline for generating, processing, and evaluating the ARAS400k dataset. The workflow is designed to build a large-scale remote sensing dataset by extracting real satellite imagery, generating synthetic counterparts, producing multimodal captions, and training semantic segmentation models to evaluate the feature distributions of the resulting 400,000-image dataset (100,000 real / 300,000 synthetic). The dataset is available [here](https://zenodo.org/records/18890661).
 
-After downloading check the md5 checksum table to determine if any file is missing or corrupt
-train.zip: `95cd5caea68c813fd86888f9cd95b627`
-val.zip: `76e61fd7557d65ba0596e44c0f92b43f`
-test.zip: `01679231ee8e38701f5d3ab7de0b5719`
-synth.zip: `0dc95bfdda44a816ade0d7ea747e4f9c`
+After downloading check the following md5 checksum table to determine if any file is missing or corrupt
+| Filename   | MD5 Checksum                          |
+|------------|----------------------------------------|
+| train.zip  | `95cd5caea68c813fd86888f9cd95b627`     |
+| val.zip    | `76e61fd7557d65ba0596e44c0f92b43f`     |
+| test.zip   | `01679231ee8e38701f5d3ab7de0b5719`     |
+| synth.zip  | `0dc95bfdda44a816ade0d7ea747e4f9c`     |
 
 
 ## Docker Environments for Reproducibility
