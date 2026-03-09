@@ -1,5 +1,7 @@
 # ARAS400k
 
+![image](GDA2.PNG)
+
 # Grounding Synthetic Data Generation With Vision and Language Models
 
 This repository contains the complete pipeline for generating, processing, and evaluating the ARAS400k dataset. The workflow is designed to build a large-scale remote sensing dataset by extracting real satellite imagery, generating synthetic counterparts, producing multimodal captions, and training semantic segmentation models to evaluate the feature distributions of the resulting 400,000-image dataset (100,000 real / 300,000 synthetic).
@@ -15,6 +17,8 @@ To ensure a stable and reproducible environment across different stages of the p
 ---
 
 ## Pipeline Overview
+
+![image](GDA1.PNG)
 
 ### 1. Data Acquisition
 
