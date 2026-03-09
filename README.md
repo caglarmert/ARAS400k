@@ -19,9 +19,9 @@ After downloading check the following md5 checksum table to determine if any fil
 
 To ensure a stable and reproducible environment across different stages of the pipeline, the following Docker images are recommended:
 
-* **Segmentation Model Training & Inference:** `mertcaglar/segm`
-* **Caption Generation (Hugging Face Transformers):** `huggingface/transformers-pytorch-gpu`
-* **Generative Model Training & Inference:** `mertcaglar/stylegan3`
+* **Segmentation Model Training & Inference:** [`mertcaglar/segm`](https://hub.docker.com/r/mertcaglar/segm)
+* **Caption Generation (Hugging Face Transformers):** [`huggingface/transformers-pytorch-gpu`](https://hub.docker.com/r/huggingface/transformers-pytorch-gpu)
+* **Generative Model Training & Inference:** [`mertcaglar/stylegan3`](https://hub.docker.com/r/mertcaglar/stylegan3)
 
 ---
 
