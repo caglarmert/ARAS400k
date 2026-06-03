@@ -1,10 +1,17 @@
 # ARAS400k
 
+This repository contains the complete pipeline for generating, processing, and evaluating the ARAS400k dataset.
+
+[![Paper](https://img.shields.io/badge/arXiv-2603.09625-b31b1b.svg)](https://arxiv.org/abs/2603.09625)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+
+
 ![image](GDA2.PNG)
 
 # Grounding Synthetic Data Generation With Vision and Language Models
 
-This repository contains the complete pipeline for generating, processing, and evaluating the ARAS400k dataset. The workflow is designed to build a large-scale remote sensing dataset by extracting real satellite imagery, generating synthetic counterparts, producing multimodal captions, and training semantic segmentation models to evaluate the feature distributions of the resulting 400,000-image dataset (100,000 real / 300,000 synthetic). The dataset is available [here](https://zenodo.org/records/18890661).
+The workflow is designed to build a large-scale remote sensing dataset by extracting real satellite imagery, generating synthetic counterparts, producing multimodal captions, and training semantic segmentation models to evaluate the feature distributions of the resulting 400,000-image dataset (100,000 real / 300,000 synthetic). The dataset is available [here](https://zenodo.org/records/18890661).
 
 After downloading check the following md5 checksum table to determine if any file is missing or corrupt
 | Filename   | MD5 Checksum                          |
@@ -99,3 +106,15 @@ Validates the quality of the synthetic data by comparing its feature distributio
 * **Output:** Generates and saves 2D projection plots using both t-SNE and UMAP algorithms. It also computes overall and pairwise Silhouette scores to quantitatively measure how well the distributions align.
 
 ---
+
+
+### Cite
+
+```bibtex
+@article{ccauglar2026lale,
+  title={LALE: Lightweight-Transformer Architecture for Land-Cover Estimation}, 
+  author={{\c{C}}a{\u{g}}lar, {\"U}mit Mert and Temizel, Alptekin},
+  journal={arXiv preprint arXiv:2603.09625},
+  year={2026},
+}
+```
