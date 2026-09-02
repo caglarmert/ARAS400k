@@ -111,10 +111,10 @@ Validates the quality of the synthetic data by comparing its feature distributio
 ### Cite
 
 ```bibtex
-@article{ccauglar2026lale,
-  title={LALE: Lightweight-Transformer Architecture for Land-Cover Estimation}, 
+@article{ccauglar2026grounding,
+  title={Grounding synthetic data generation with vision and language models},
   author={{\c{C}}a{\u{g}}lar, {\"U}mit Mert and Temizel, Alptekin},
   journal={arXiv preprint arXiv:2603.09625},
-  year={2026},
+  year={2026}
 }
 ```
